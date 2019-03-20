@@ -1,13 +1,24 @@
+/* import css files */
+@import "./home.css";
+@import "./about.css";
+@import "./skill.css";
+@import "./work.css";
+@import "./contact.css";
+@import "./components/nav.css";
+
 /* global css */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: #1C1B20;
 }
 
 .span-font, .skill-title {
   font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  color:#F68948;
 }
 
 .container {
@@ -18,17 +29,17 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  /* background-color: #f1f1f1; */
-  background: red;
+  width: calc(100% - 120px);
+  background: #f1f1f1;
 }
 
-.page-container {
+/* .page-container {
 
-}
+} */
 
 
 /* non-global css */
+
 
 .page-title {
 

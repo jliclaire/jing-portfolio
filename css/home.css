@@ -1,0 +1,37 @@
+.first-page {
+  height: 100vh;
+}
+
+#home {
+  margin-top: 60px;
+  /* height: 100vh; */
+  height: calc(100%-60px);
+  background: url('./img/bgimg.jpg');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+
+}
+
+#home-header {
+  padding-top: 50px;
+}
+
+#home h1 {
+  font-size: 150px;
+  font-weight: 900;
+  padding-left: 220px;
+  color: #F68948;
+  line-height: 0.9rm;
+}
+
+#home-text {
+  padding-bottom: 50px;
+}
+
+#home p {
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 220px;
+}
