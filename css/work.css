@@ -1,0 +1,43 @@
+/* import projects gallery */
+@import './components/gallery.css';
+#work {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#work-heading {
+  display: flex;
+  margin-top: 30px;
+  /* margin-top: 60px; */
+  height: 180px;
+  justify-content: space-between;
+}
+
+#header-work h2 {
+  color: #414A6B;
+}
+
+#subheader-work {
+  margin-right: 22%;
+  margin-top: 30px;
+}
+
+#gallery {
+  padding-top: 70px;
+  background: #fff;
+  margin: 0 auto;  
+}
+
+#box {
+  width: 98%;
+  margin: 0 auto;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,40 @@
+#about {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#about-heading {
+  display: flex;
+  margin-top: 30px;
+  height: 180px;
+  justify-content: space-between;
+}
+
+#header-about h2 {
+  color: #C11B05;
+}
+
+#subheader-about {
+  margin-right: 18%;
+  margin-top: 30px;
+}
+
+#text-about {
+  background: #fff;
+  height: 320px;
+}
+
+#about-me {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+/* #about-me p {
+  font-size: 18px;
+  line-height: 30px;
+} */
+
+#para {
+  padding-bottom: 20px;
+}

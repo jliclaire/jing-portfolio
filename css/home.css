@@ -1,4 +1,4 @@
-.first-page {
+#first-page {
   height: 100vh;
 }
 
@@ -15,7 +15,7 @@
 }
 
 #home-header {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 #home h1 {
@@ -23,7 +23,8 @@
   font-weight: 900;
   padding-left: 220px;
   color: #F68948;
-  line-height: 0.9rm;
+  line-height: 160px;
+  padding-bottom: 10px;
 }
 
 #home-text {
