@@ -1,3 +1,4 @@
+@import "./components/skill-list.css";
 #skills {
   width: 90%;
   margin: 0 auto;
@@ -13,9 +14,8 @@
   flex-direction: column;
 }
 
-#header-skills h2 {
+#header-skills h1 {
   color: #419AA0;
-  /* z-index: 1; */
 }
 
 
@@ -31,6 +31,48 @@
   margin-top: 50px;
   float: right;
   background: #fff;
-  /* z-index: -1; */
+}
+
+#skill-container {
+  width: 85%;
+  margin: 0 auto;
+  height:100%;
+}
+
+#skill-container h3 {
+  color:#419AA0;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  padding-top: 30px; 
+  padding-bottom: 15px; 
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+  border-bottom: 100px solid #ECECEC;
+  /* border-bottom: 100px solid #419AA0; */
+}
+
+#future-skill {
+  text-align: center;
+  margin-top: -15px;
+}
+
+#future-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#future-skill p {
+  padding: 10px 15px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
 }
 

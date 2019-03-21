@@ -19,16 +19,19 @@
 }
 
 #home h1 {
-  font-size: 150px;
+  font-family: 'Gilroy', 'Montserrat', sans-serif;
+  font-size: 200px;
   font-weight: 900;
   padding-left: 220px;
   color: #F68948;
   line-height: 160px;
   padding-bottom: 10px;
+  letter-spacing: 15px;
 }
 
 #home-text {
   padding-bottom: 50px;
+  padding-top:20px; 
 }
 
 #home p {

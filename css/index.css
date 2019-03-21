@@ -13,6 +13,12 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   color: #1C1B20;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../font/Gilroy-ExtraBold.otf);
 }
 
 .span-font, .skill-title {
@@ -30,13 +36,13 @@
   display: flex;
   flex-direction: column;
   width: calc(100% - 120px);
-  /* background: #f1f1f1; */
   background: #ECECEC;
 }
 
-.page-header {
+.page-header h1{
+  font-family: 'Gilroy', 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 120px;
   line-height: 120px;
 }
 
