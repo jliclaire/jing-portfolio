@@ -1,0 +1,59 @@
+@import "./components/contact-form.css";
+#contact {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: inline-block;  
+}
+
+#contact-heading {
+  float: left;
+  margin-top: 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-contact h2 {
+  color: #F68948;
+  /* z-index: 1; */
+}
+
+
+#subheader-contact {
+  padding-left: 30px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+#contact-form {
+  width: 63%;
+  height: 85%;
+  margin-top: 50px;
+  float: right;
+  background: #fff;
+  /* z-index: -1; */
+}
+
+.contact-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.far, .fab, .fas {
+  font-size: 20px;
+  padding-right: 15px;
+  color:#1C1B20;
+}
+
+.icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons .fab {
+  font-size: 2rem;
+}
+

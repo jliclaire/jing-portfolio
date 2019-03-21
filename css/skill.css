@@ -1,0 +1,36 @@
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: inline-block;  
+}
+
+#skills-heading {
+  float: left;
+  margin-top: 30px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-skills h2 {
+  color: #419AA0;
+  /* z-index: 1; */
+}
+
+
+#subheader-skills {
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sets-skills {
+  width: 70%;
+  height: 85%;
+  margin-top: 50px;
+  float: right;
+  background: #fff;
+  /* z-index: -1; */
+}
+

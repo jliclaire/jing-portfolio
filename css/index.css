@@ -51,8 +51,24 @@
   line-height: 30px;
 }
 
-
-
 /* non-global css */
+footer {
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+footer p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12px;
+}
+
+.fa-heart {
+  color: red;
+  margin-left: 3px;
+  padding-right: 5px;
+  font-size: 15px;
+}
 
