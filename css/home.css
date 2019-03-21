@@ -29,6 +29,18 @@
   letter-spacing: 15px;
 }
 
+#avatar {
+  position: absolute;
+  left: 39.6%;
+  top: 48.4%;
+}
+
+#home img {
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;  
+}
+
 #home-text {
   padding-bottom: 50px;
   padding-top:20px; 
