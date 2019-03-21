@@ -25,3 +25,10 @@
   margin-right: 60px;
   color:#F68948;
 }
+
+.menu a:hover {
+  /* transform: scale(1.5); */
+  color: #1C1B20;
+  font-size: 1.1rem;
+  
+}

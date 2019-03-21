@@ -7,7 +7,6 @@
 }
 
 .form {
-  /* background: lightblue; */
   height: 60%;
   width: 80%;
   display: flex;
@@ -30,9 +29,10 @@
   border: 1px solid #ECECEC;
 }
 
-/* .form-content [::placeholder] {
+::placeholder {
   padding-left: 10px;
-} */
+  padding-top: 5px;
+}
 
 .email {
   width: 100%;
