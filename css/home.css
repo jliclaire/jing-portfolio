@@ -2,16 +2,23 @@
   height: 100vh;
 }
 
-#home {
+/* #home {
   margin-top: 60px;
-  /* height: 100vh; */
   height: calc(100%-60px);
   background: url('./img/bgimg.jpg');
-  /* background-position: center; */
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
+} */
 
+#home {
+  margin-top: 60px;
+  height: 100vh;
+  background: url('./img/bgimg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
 }
 
 #home-header {
@@ -22,7 +29,7 @@
   font-family: 'Gilroy', 'Montserrat', sans-serif;
   font-size: 200px;
   font-weight: 900;
-  padding-left: 220px;
+  padding-left: 20%;
   color: #F68948;
   line-height: 160px;
   padding-bottom: 10px;
@@ -31,7 +38,7 @@
 
 #avatar {
   position: absolute;
-  left: 39.6%;
+  left: 40.2%;
   top: 48.4%;
 }
 
@@ -42,12 +49,45 @@
 }
 
 #home-text {
-  padding-bottom: 50px;
-  padding-top:20px; 
+  /* padding-bottom: 30px; */
+  padding-top:3%;; 
 }
 
 #home p {
   font-weight: bold;
   font-size: 35px;
-  padding-left: 220px;
+  padding-left: 20%;
+}
+
+@media only screen and (max-width: 1279px) {
+  #avatar {
+    display: none;
+  }
+
+@media only screen and (max-width: 800px) {
+  #home h1 {
+    font-size: 160px;
+    line-height: 120px;
+  }
+
+  #home-text {
+    padding-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #home h1 {
+    font-size: 140px;
+    line-height: 100px;
+    padding-left: 13%;
+  }
+
+  #home p {
+    font-size: 30px;
+    padding-left: 13%;
+  }
+
+  #home-text {
+    padding-top: 15%;
+  }
 }

@@ -52,7 +52,6 @@
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
   border-bottom: 100px solid #ECECEC;
-  /* border-bottom: 100px solid #419AA0; */
 }
 
 #future-skill {
@@ -71,5 +70,43 @@
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
+}
+
+@media only screen and (max-width: 1060px) {
+  #skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skills-heading {
+    height: auto;
+    width: 70%;
+  }
+
+  #subheader-skills {
+    margin-top: 20px;
+  }
+
+  #sets-skills {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0px;
+  }
+
+  #skill-container h3 {
+    padding-top: 20px; 
+    padding-bottom: 15px; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #skills {
+    width: 100%;
+  }
+
+  #skills-heading {
+    padding-left: 5%;
+  }
 }
 
