@@ -56,13 +56,18 @@
 #home p {
   font-weight: bold;
   font-size: 35px;
+<<<<<<< HEAD
   padding-left: 20%;
+=======
+  padding-left: 220px;
+>>>>>>> 439b09d1ddaceeda52b65fc4ff36c3d8fa9f1d31
 }
 
 @media only screen and (max-width: 1279px) {
   #avatar {
     display: none;
   }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 800px) {
   #home h1 {
@@ -90,4 +95,6 @@
   #home-text {
     padding-top: 15%;
   }
+=======
+>>>>>>> 439b09d1ddaceeda52b65fc4ff36c3d8fa9f1d31
 }
