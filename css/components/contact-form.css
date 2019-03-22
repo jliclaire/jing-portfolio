@@ -14,7 +14,7 @@
   justify-content: space-around;
 }
 
-.form-content  {
+.name-content  {
   display: flex;
   justify-content: space-between;
 }
@@ -45,6 +45,12 @@
 }
 
 #submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#submit-button {
   height: 2rem;
   width: 15%;
   background: #F68948;
@@ -52,4 +58,16 @@
   border-radius: 5px;
   color: #fff;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .name-content  {
+    display: flex;
+    flex-direction: column;
+    height: 6.5rem;
+  }
+
+  .name {
+    width: 100%;
+  }
 }

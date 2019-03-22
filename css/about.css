@@ -22,7 +22,6 @@
 
 #text-about {
   background: #fff;
-  height: 320px;
 }
 
 #about-me {
@@ -31,6 +30,48 @@
   padding-top: 70px;
 }
 
-#para {
+#about-me p {
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1060px) {
+  #about-heading {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #subheader-about {
+    margin-top: 20px;
+    padding-right: 10%;
+  }
+
+  #subheader-about p {
+    padding-left: 30px;
+  }
+
+  #about-me {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  #text-about {
+    background: #fff;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #about {
+    width: 100%;
+  }
+
+  #about-heading {
+    padding-left: 5%;
+  }
+
+  #subheader-about p {
+    padding-left: 0px;
+  }
 }

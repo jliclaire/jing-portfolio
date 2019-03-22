@@ -2,7 +2,7 @@
 #contact {
   width: 90%;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 60px;
   display: inline-block;  
 }
 
@@ -39,7 +39,7 @@
   margin-bottom: 10px;
 }
 
-.fab, .fas {
+.fas {
   font-size: 20px;
   padding-right: 15px;
   color:#1C1B20;
@@ -53,5 +53,54 @@
 
 .icons .fab {
   font-size: 2rem;
+  margin-right: 15px;
 }
+
+@media only screen and (max-width: 1060px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-heading {
+    height: auto;
+    width: 70%;
+  }
+
+  #subheader-contact {
+    margin-top: 20px;
+  }
+
+  .icons {
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+
+  .icons .fab {
+    font-size: 2rem;
+    padding-right: 15px;
+  }
+
+  #contact-form {
+    width: 100%;
+    background: #fff;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #contact {
+    width: 100%; 
+  }
+
+  #contact-heading {
+   padding-left: 5%;
+  }
+
+  #contact-form {
+    margin-bottom: 0px;
+  }
+}
+
 
