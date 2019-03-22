@@ -78,3 +78,25 @@ footer p {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 480px) {
+  .main-container {
+    width: 100%;
+  }
+
+  .page-header h1{
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .page-subheader {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  .page-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
