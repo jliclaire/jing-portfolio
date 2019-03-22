@@ -70,4 +70,8 @@
   .name {
     width: 100%;
   }
+
+  #submit-button {
+    width: 25%;
+  }
 }
