@@ -21,12 +21,12 @@
 }
 
 .myProgress {
-  width: 80%;  
+  width: 80%;
 }
 
 .percentage {    
   background-color: #ECECEC;
-  /* border: 1px solid #419AA0; */
+  border: 1px solid #419AA0;
   height: 16px;
   border-radius: 3px;
   display: flex;
