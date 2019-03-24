@@ -1,27 +1,35 @@
 # jing-portfolio
 
 ## GitHub link 
-<a href = "https://github.com/jliclaire/jing-portfolio">
+  [https://github.com/jliclaire/jing-portfolio]
 
 ## portfolio website - Netlify link
-<a href = "https://happy-chandrasekhar-3b32d9.netlify.com/">
+  https://happy-chandrasekhar-3b32d9.netlify.com/
 
 ## Description of the portfolio website
-  -Purpose
+  ####Purpose
+
+
     The purpose of this project is to use HTML and CSS to create my personal portfolio website to show my experience and skills.
-  -Functionality / features
+
+
+  #### Functionality / features
+
     The website includes functions such as a navigation menu fixed on top of the page, A gallery of projects that I have completed and a contact form.
-  -Sitemap
+
+  * Sitemap
     It is a one page scrolled down website including five pages of home, about, skill, work and contact.
-  -Screenshots
-    <img src="css/img/logo.JPG">
-    <img src="css/img/logo.JPG">
-    <img src="css/img/logo.JPG">
-    <img src="css/img/logo.JPG">
-    <img src="css/img/logo.JPG">
+
+  * Screenshots
+
+    (./css/img/logo.JPG)
+
   -Target audience
+
     The target audience of this site is potential empolyeers.
+
   -Tech stack (e.g. html, css, deployment platform, etc)
+  
     The site structure was written used HTML, styled by CSS, deployed on Netlify.
 
 ## Design documentation
