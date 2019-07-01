@@ -1,32 +1,25 @@
-/* #current-skills {
-  width: 95%;
-  margin: 0 auto;
-} */
+#current-skills {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
 .percentage-bar {
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
   height: 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
-}
-
-.percentage-bar .skill-name {
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 5px;
+  margin-bottom: 20px;
 }
 
 .myProgress {
   width: 80%;
 }
 
-.percentage {    
-  background-color: #ECECEC;
-  border: 1px solid #419AA0;
+.percentage {
+  background-color: #ececec;
+  border: 1px solid #419aa0;
   height: 16px;
   border-radius: 3px;
   display: flex;
@@ -37,34 +30,15 @@
 .percentage p {
   font-size: 10px;
   font-weight: bold;
-  color: #419AA0;
-
+  color: #419aa0;
 }
 
-#html {
-  width: 90%;
-}  
-
-#css {
-  width: 80%;
+.skill-icon {
+  font-size: 25px;
+  color: #419aa0;
 }
 
-#ruby {
-  width: 75%;
-}
-
-#git {
-  width: 70%;
-}
-
-#js {
-  width: 60%;
-}
-
-#sql {
-  width: 50%;
-}
-
-#mern {
-  width: 35%;
+.skill-name {
+  font-family: Montserrat, sans-serif;
+  padding-left: 15px;
 }
